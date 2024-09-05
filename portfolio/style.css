@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+main {
+  width: 1400px;
+}
+.home {
+  margin: 30px 0;
+}
+body {
+  background-color: #c7c7c7;
+  text-align: center;
+}
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  background-color: #c7c7c7;
+  gap: 20px;
+  height: 100px;
+  align-items: center;
+}
+.headerTitle h1 {
+  font-size: 30px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #c7c7c7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 650px;
+  margin: auto;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0px;
+  min-height: 95vh;
+}
+.rl {
+  color: #eb9234;
+  font-size: 40px;
+}
+.i {
+  text-align: left;
+  font-size: 50px;
+}
+.mainpageImg img {
+  border-radius: 50px;
+  border: 5px solid #c7c7c7;
+}
+nav a:hover {
+  color: #eb9234;
+}
+
+#about {
+  scroll-margin-top: 230px;
+}
+#skillsection {
+  scroll-margin-top: 180px;
+}
+
+.aboutPage {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  line-height: 20px;
+  padding: 85px 10px;
+  justify-content: space-between;
+  
+}
+.aboutContent {
+  width: 40%;
+}
+.aboutImg {
+  width: 40%;
+}
+.aboutBtn {
+  width: 30%;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.aboutPara {
+  background-color: #d4d4d4;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  line-height: 25px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.skillsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#SKILLS {
+  margin-top: 60px;
+  color: #a7a7a7;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.skill {
+  width: 45%;
+  margin-bottom: 20px;
+  
+}
+
+.skill span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background-color: #545454;
+  border-radius: 5px;
+  height: 10px;
+  overflow: hidden;
+  /* box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #f1c40f;
+  border-radius: 5px;
+}
+.contactPage {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contactContent {
+  width: 40%;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contactMain{
+  min-height: 90vh;
+}
+
+.contactImg {
+  width: 40%;
+}
+.contactMain {
+  margin: 50px 50px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .mainpage {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aboutPage,
+  .contactPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutContent,
+  .aboutImg,
+  .contactContent,
+  .contactImg {
+    width: 100%;
+  }
+
+  .skills {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .skill {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .mainpage {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .rl,
+  .i {
+    font-size: 2rem;
+  }
+
+  .aboutPage,
+  .contactPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutContent,
+  .aboutImg,
+  .contactContent,
+  .contactImg {
+    width: 100%;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill {
+    width: 100%;
+  }
+  .aboutImg {
+    width: auto;
+  }
+  .aboutImg Img {
+    height: 200px;
+  }
+}  
