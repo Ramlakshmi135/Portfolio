@@ -103,7 +103,7 @@ a:hover {
 nav a:hover {
   color: #eb9234;
 }
-
+/* ===About section=== */
 #about {
   scroll-margin-top: 240px;
 }
@@ -143,6 +143,7 @@ nav a:hover {
   font-weight: 400;
   font-style: normal;
 }
+/* ===Skills section=== */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -186,6 +187,7 @@ nav a:hover {
   background-color: #f1c40f;
   border-radius: 5px;
 }
+/* ===Contact section=== */
 .contactPage {
   display: flex;
   justify-content: center;
