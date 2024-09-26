@@ -24,6 +24,7 @@ nav {
   padding: 0 50px;
   background: linear-gradient(to right, #c7c7c7, #ffffff);
   border-bottom: 1px solid black;
+
 }
 .headerTitle h1 {
   font-size: 30px;
@@ -38,13 +39,15 @@ a {
 }
 .navbar {
    display: flex;
-  gap: 20px;
+   gap: 20px;
+  
 }
 
 a:hover {
   color: black;
   text-decoration: underline;
   text-underline-offset: 10px;
+  
 }
 .mainpage {
   display: flex;
@@ -55,11 +58,14 @@ a:hover {
   align-items: center;
   padding: 30px 0px;
   min-height: 105vh;
+  
+ 
 }
 .mainpage .home {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 .home img {
   width: 15vw;
@@ -82,6 +88,7 @@ a:hover {
   transition: background 0.3s ease;
   outline: none;
   text-decoration: none;
+  
 }
 .home a:hover {
   background: linear-gradient(90deg, #036105, #ff9a00);
@@ -166,14 +173,14 @@ nav a:hover {
 }
 
 .skill {
-  width: 45%;
-  margin-bottom: 20px;
+    width: 45%;
+    margin-bottom: 20px;
 }
 
 .skill span {
   font-weight: bold;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 5px; 
 }
 
 .progress {
