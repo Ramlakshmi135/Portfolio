@@ -57,8 +57,8 @@ a:hover {
   margin: auto;
   align-items: center;
   padding: 30px 0px;
-  min-height: 105vh;
-  
+  min-height: 105vh; 
+   
  
 }
 .mainpage .home {
@@ -69,6 +69,7 @@ a:hover {
 }
 .home img {
   width: 15vw;
+  
  
 }
 .hire_me {
