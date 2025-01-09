@@ -271,6 +271,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+/* Responsive */
 .contactPage a {
   text-decoration: none;
 }
