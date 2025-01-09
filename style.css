@@ -74,6 +74,8 @@ a:hover {
 }
 .hire_me {
   position: relative;
+  z-index: -100000;
+
 }
 .home a {
   position: absolute;
@@ -106,7 +108,6 @@ a:hover {
 .mainpageImg img {
   border-radius: 50px;
   border: 5px solid #c7c7c7;
-  
 }
 nav a:hover {
   color: #eb9234;
@@ -114,9 +115,10 @@ nav a:hover {
 /* ===About section=== */
 #about {
   scroll-margin-top: 240px;
+
 }
 #skillsection {
-  scroll-margin-top: 180px;
+  scroll-margin-top: 33rem;
 }
 
 .aboutPage {
@@ -158,24 +160,25 @@ nav a:hover {
   justify-content: space-between;
   gap: 50px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .skillsection {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 15rem;
 }
 #SKILLS {
   margin-top: 60px; 
   color: #a7a7a7;
-  font-size: 70px;
+  font-size: 4rem;  
   margin-bottom: 50px;
 }
 
 .skill {
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: .1rem;
 }
 
 .skill span {
@@ -195,6 +198,37 @@ nav a:hover {
   background-color: #f1c40f;
   border-radius: 5px;
 }
+
+/* English Skills */
+
+.english-skills-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.english-skills-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.english-skills-title{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.skill_title{
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+.stars{
+  color: #d7ae0a;
+  font-size: 1.6rem;
+}
+
 /* ===Contact section=== */
 .contactPage {
   display: flex;
