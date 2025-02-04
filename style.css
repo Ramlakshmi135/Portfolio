@@ -119,6 +119,7 @@ a:hover {
   border: 5px solid black;
   width: 400px;
   height: 400px;
+  gap: 10px;
   
 }
 nav a:hover {
