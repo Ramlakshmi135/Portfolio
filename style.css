@@ -43,13 +43,15 @@ a {
   
 }
 
-/* img */
+/* Round image */
+
 .round-image {
   width: 150px;  
   height: 150px; 
   border-radius: 50%;
   object-fit: cover; 
   border: 3px solid #333; 
+  
 }
 
 a:hover {
@@ -114,12 +116,13 @@ a:hover {
   text-align: left;
   font-size: 50px;
 }
-.mainpageImg img {
+.mainpageImg  {
 
   border: 5px solid black;
   width: 400px;
   height: 400px;
-  gap: 10px;
+  margin-left: 10px;
+  
   
 }
 nav a:hover {
@@ -132,6 +135,7 @@ nav a:hover {
 }
 #skillsection {
   scroll-margin-top: 33rem;
+
 }
 
 .aboutPage {
