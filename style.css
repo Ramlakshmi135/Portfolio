@@ -43,6 +43,15 @@ a {
   
 }
 
+/* img */
+.round-image {
+  width: 150px;  
+  height: 150px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 3px solid #333; 
+}
+
 a:hover {
   color: black;
   text-decoration: underline;
@@ -106,8 +115,10 @@ a:hover {
   font-size: 50px;
 }
 .mainpageImg img {
-  border-radius: 50px;
-  border: 5px solid #c7c7c7;
+
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
   
 }
 nav a:hover {
@@ -277,7 +288,7 @@ nav a:hover {
 }
 
 .contactImg {
-  width: 40%;
+  width: 50%;
 }
 .contactMain {
   margin: 50px 50px;
